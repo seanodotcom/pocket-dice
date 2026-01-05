@@ -286,8 +286,8 @@ const App: React.FC = () => {
         <div className="h-screen w-full flex flex-col items-center justify-center bg-zinc-900 p-2 overflow-hidden touch-none">
             <div className="relative w-full max-w-md bg-gradient-to-br from-[#E6B800] to-[#B38F00] rounded-[2.5rem] p-4 shadow-2xl flex flex-col items-center select-none border-b-8 border-r-8 border-[#8a6e00] h-full md:h-auto md:aspect-[9/18] md:max-h-[95vh]">
                 <div className="w-full bg-[#B71C1C] rounded-t-xl rounded-b-lg p-1.5 mb-2 shadow-md border-b-2 border-[#801313] shrink-0">
-                    <div className="w-full px-2 mb-1">
-                        <img src="/logo.png" alt="Pocket Dice Electronic Hand-Held" className="w-full h-auto mix-blend-screen" />
+                    <div className="w-full h-[80px] mb-1 flex justify-center items-center overflow-hidden">
+                        <img src="/logo.png" alt="Pocket Dice Electronic Hand-Held" className="w-full h-full object-cover mix-blend-screen" />
                     </div>
                 </div>
                 <div className="w-full bg-[#8D6E03] p-2.5 rounded-xl shadow-[inset_0_4px_8px_rgba(0,0,0,0.4)] mb-2 shrink overflow-hidden">
